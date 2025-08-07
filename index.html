@@ -1,445 +1,775 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Kiran Kumar | Java Full Stack & DevOps Engineer</title>
-    <meta name="description" content="Kiran Kumar - Java Full Stack Developer and DevOps Engineer learning AI">  
-    <meta name="author" content="Kiran Kumar">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/base.css">
+    <meta
+      name="description"
+      content="Kiran Kumar - Java Full Stack Developer and DevOps Engineer learning AI"
+    />
+    <meta name="author" content="Kiran Kumar" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header class="header" id="header">
-        <nav class="navbar">
-            <a href="#home" class="logo">{KK}</a>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-        </nav>
+      <nav class="navbar">
+        <a href="#home" class="logo">{ KK }</a>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <p class="hero-greeting">👋 Hello, World!</p>
-            <h1 class="hero-title">I'm Kiran Kumar</h1>
-            <div class="hero-roles">
-                <span class="role-tag">Java Full Stack Developer</span>
-                <span class="role-tag">DevOps Engineer</span>
-                <span class="role-tag">AI Enthusiast</span>
-            </div>
-            <a href="#about" class="hero-cta">
-                <span>Discover My Work</span>
-                <i class="fas fa-arrow-down"></i>
-            </a>
+      <div class="hero-content">
+        <p class="hero-greeting">👋 Hello, World!</p>
+        <h1 class="hero-title">I'm Kiran Kumar</h1>
+        <div class="hero-roles">
+          <span class="role-tag">Java Full Stack Developer</span>
+          <span class="role-tag">DevOps Engineer</span>
+          <span class="role-tag">AI Enthusiast</span>
         </div>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/kiran-kumar-921278211/" class="social-link">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/kirukumar" class="social-link">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/kiran_kumar_09_/" class="social-link">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="mailto:kumarkiru09@gmail.com" class="social-link">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
+        <a href="#about" class="hero-cta">
+          <span>Discover My Work</span>
+          <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/kiran-kumar-921278211/"
+          class="social-link"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/kirukumar" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/kiran_kumar_09_/"
+          class="social-link"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:kumarkiru09@gmail.com" class="social-link">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Passionate about building scalable solutions and exploring cutting-edge technologies</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-image">
-                    <img src="./images/profile-pic.jpg" alt="Kiran Kumar" class="about-img">
-                </div>
-                <div class="about-content">
-                    <h3>Java Full Stack & DevOps Engineer</h3>
-                    <p class="about-text">
-                        A Electronics and Communication Engineering graduate from Sahyadri Collegee Of Engineering with excellent academic background and diverse skillset. Experienced Java Full Stack Developer with strong expertise in Spring Boot, Microservices, and modern web technologies. Proficient in DevOps practices including CI/CD pipelines, containerization, and cloud deployment. Currently expanding knowledge in Artificial Intelligence and Machine Learning technologies to stay at the forefront of innovation.
-                    </p>
-                    <div class="info-grid">
-                        <div class="info-item">
-                            <i class="fas fa-user info-icon"></i>
-                            <span class="info-label">Name:</span>
-                            <span class="info-value">Kiran Kumar</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-calendar info-icon"></i>
-                            <span class="info-label">Birth Date:</span>
-                            <span class="info-value">August 18th, 2000</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-envelope info-icon"></i>
-                            <span class="info-label">Email:</span>
-                            <span class="info-value">kumarkiru09@gmail.com</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt info-icon"></i>
-                            <span class="info-label">Location:</span>
-                            <span class="info-value">Mumbai, India</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Passionate about building scalable solutions and exploring
+            cutting-edge technologies
+          </p>
         </div>
+        <div class="about-grid">
+          <div class="about-image">
+            <img
+              src="./images/profile-pic.jpg"
+              alt="Kiran Kumar"
+              class="about-img"
+            />
+          </div>
+          <div class="about-content">
+            <h3>Java Full Stack & DevOps Engineer</h3>
+            <p class="about-text">
+              A Electronics and Communication Engineering graduate from Sahyadri
+              Collegee Of Engineering with excellent academic background and
+              diverse skillset. Experienced Java Full Stack Developer with
+              strong expertise in Spring Boot, Microservices, and modern web
+              technologies. Proficient in DevOps practices including CI/CD
+              pipelines, containerization, and cloud deployment. Currently
+              expanding knowledge in Artificial Intelligence and Machine
+              Learning technologies to stay at the forefront of innovation.
+            </p>
+            <div class="info-grid">
+              <div class="info-item">
+                <i class="fas fa-user info-icon"></i>
+                <span class="info-label">Name:</span>
+                <span class="info-value">Kiran Kumar</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-calendar info-icon"></i>
+                <span class="info-label">Birth Date:</span>
+                <span class="info-value">August 18th, 2000</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope info-icon"></i>
+                <span class="info-label">Email:</span>
+                <span class="info-value">kumarkiru09@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt info-icon"></i>
+                <span class="info-label">Location:</span>
+                <span class="info-value">Mumbai, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
-   <section id="experience" class="section section-alt">
-   <div class="container">
+    <section id="experience" class="section section-alt">
+      <div class="container">
         <div class="section-header">
-            <h2 class="section-title">Work Experience</h2>
-            <p class="section-subtitle">My professional journey and career growth</p>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">
+            My professional journey and technical expertise
+          </p>
         </div>
         <div class="experience-container">
-            <div class="experience-single">
-                <div class="experience-item">
-                    <div class="experience-company-logo">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <div class="experience-content">
-                        <span class="experience-date">2022 - Present</span>
-                        <h3 class="experience-title">Java Full Stack Developer</h3>
-                        <h4 class="experience-company">Endava Solutions India Pvt Ltd.</h4>
-                        <p class="experience-description">
-                            Leading development of enterprise-level applications using Spring Boot microservices.
-                            Designed RESTful APIs, developed React frontends, and optimized database performance
-                            serving 100K+ users.
-                        </p>
-                        <div class="experience-skills">
-                            <span class="experience-skill">Java</span>
-                            <span class="experience-skill">Spring Boot</span>
-                            <span class="experience-skill">React</span>
-                            <span class="experience-skill">PostgreSQL</span>
-                            <span class="experience-skill">Microservices</span>
-                        </div>
-                    </div>
+          <div class="experience-card">
+            <div class="experience-header">
+              <div class="experience-company-info">
+                <h3 class="experience-company-name">
+                  <div class="experience-company-icon">
+                    <i class="fas fa-building"></i>
+                  </div>
+                  TechCorp Solutions
+                </h3>
+                <p class="experience-location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Mumbai, Maharashtra, India
+                </p>
+              </div>
+              <div class="experience-duration">
+                <div>Jun 2022 - Present</div>
+                <div
+                  style="font-size: 0.875rem; opacity: 0.9; margin-top: 0.25rem"
+                >
+                  2+ Years
                 </div>
+              </div>
             </div>
+
+            <div class="experience-roles">
+              <div class="experience-role">
+                <div class="experience-role-header">
+                  <h4 class="experience-role-title">
+                    Java Full Stack & DevOps Engineer
+                  </h4>
+                  <span class="experience-role-period">Jun 2022 - Present</span>
+                </div>
+                <p class="experience-role-description">
+                  Working as a Java Full Stack Developer with DevOps
+                  responsibilities, specializing in building scalable enterprise
+                  applications using Spring Boot microservices architecture.
+                  Responsible for end-to-end development from frontend React
+                  applications to backend APIs, database design, and deployment
+                  automation. Actively involved in CI/CD pipeline
+                  implementation, containerization, and cloud infrastructure
+                  management while continuously learning AI/ML technologies to
+                  integrate intelligent features into applications.
+                </p>
+                <div class="experience-achievements">
+                  <h5>
+                    <i class="fas fa-code"></i> Key Responsibilities &
+                    Achievements
+                  </h5>
+                  <ul>
+                    <li>
+                      Design and develop REST APIs using Spring Boot with
+                      microservices architecture
+                    </li>
+                    <li>
+                      Build responsive web applications using React and modern
+                      JavaScript frameworks
+                    </li>
+                    <li>
+                      Implement CI/CD pipelines using Jenkins, GitLab CI for
+                      automated testing and deployment
+                    </li>
+                    <li>
+                      Manage containerization with Docker and orchestration
+                      using Kubernetes
+                    </li>
+                    <li>
+                      Work with cloud platforms (AWS/Azure) for scalable
+                      application deployment
+                    </li>
+                    <li>
+                      Database design and optimization for PostgreSQL, MySQL,
+                      and MongoDB
+                    </li>
+                    <li>
+                      Collaborate with cross-functional teams in agile
+                      development environment
+                    </li>
+                    <li>
+                      Explore and implement AI/ML solutions for business process
+                      automation
+                    </li>
+                    <li>
+                      Maintain code quality through unit testing, code reviews,
+                      and best practices
+                    </li>
+                    <li>
+                      Monitor application performance and implement optimization
+                      strategies
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="experience-tech-stack">
+              <h4 class="tech-stack-title">
+                <i class="fas fa-tools"></i>
+                Technology Stack & Tools
+              </h4>
+              <div class="tech-stack-grid">
+                <div class="tech-item">Java</div>
+                <div class="tech-item">Spring Boot</div>
+                <div class="tech-item">React</div>
+                <div class="tech-item">Angular</div>
+                <div class="tech-item">PostgreSQL</div>
+                <div class="tech-item">MongoDB</div>
+                <div class="tech-item">Docker</div>
+                <div class="tech-item">Kubernetes</div>
+                <div class="tech-item">Jenkins</div>
+                <div class="tech-item">AWS</div>
+                <div class="tech-item">GitLab CI</div>
+                <div class="tech-item">Redis</div>
+                <div class="tech-item">Kafka</div>
+                <div class="tech-item">Microservices</div>
+                <div class="tech-item">REST APIs</div>
+                <div class="tech-item">Python</div>
+                <div class="tech-item">TensorFlow</div>
+                <div class="tech-item">Git</div>
+              </div>
+            </div>
+
+            <div class="experience-summary">
+              <h4>Professional Focus & Learning</h4>
+              <p>
+                As a Full Stack Developer with DevOps expertise, I focus on
+                creating robust, scalable applications while continuously
+                expanding my knowledge in emerging technologies, particularly in
+                AI and machine learning to stay ahead in the rapidly evolving
+                tech landscape.
+              </p>
+              <div class="experience-stats">
+                <div class="stat-item">
+                  <span class="stat-number">10+</span>
+                  <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">2+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">15+</span>
+                  <span class="stat-label">Technologies Used</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">100%</span>
+                  <span class="stat-label">Learning Mindset</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Expertise</h2>
+          <p class="section-subtitle">Technologies and tools I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <div class="skill-category-icon">
+                <i class="fab fa-java"></i>
+              </div>
+              Backend Development
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">Java & Spring Boot</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">Microservices Architecture</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">REST APIs & Web Services</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">Database Technologies</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <div class="skill-category-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              Frontend Development
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">React & Angular</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">JavaScript & TypeScript</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">HTML5 & CSS3</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">Responsive Design</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <div class="skill-category-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              DevOps & Cloud
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">Docker & Kubernetes</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">CI/CD Pipelines</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">AWS/Azure Cloud</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-check-circle skill-icon"></i>
+                <span class="skill-name">Infrastructure as Code</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <div class="skill-category-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              AI & Learning
+            </h3>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <i class="fas fa-graduation-cap skill-icon"></i>
+                <span class="skill-name">Python for AI/ML</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-graduation-cap skill-icon"></i>
+                <span class="skill-name">TensorFlow Basics</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-graduation-cap skill-icon"></i>
+                <span class="skill-name">Machine Learning Concepts</span>
+              </li>
+              <li class="skill-item">
+                <i class="fas fa-graduation-cap skill-icon"></i>
+                <span class="skill-name">Data Analysis</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Showcasing my expertise in Java Full Stack development, DevOps practices, and AI/ML learning journey</p>
-            </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-card">
-                    <div class="portfolio-image">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3 class="portfolio-title">E-Commerce Microservices</h3>
-                        <span class="portfolio-category">Java Spring Boot</span>
-                        <p class="portfolio-description">
-                            Scalable e-commerce platform using Spring Boot microservices architecture. Features user management, product catalog, order processing, and payment integration with MySQL and Redis.
-                        </p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link">
-                                <i class="fab fa-github"></i>
-                                <span>View Code</span>
-                            </a>
-                            <a href="#" class="portfolio-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Live Demo</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="portfolio-image">
-                        <i class="fas fa-tachometer-alt"></i>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3 class="portfolio-title">Admin Dashboard</h3>
-                        <span class="portfolio-category">React Frontend</span>
-                        <p class="portfolio-description">
-                            Modern responsive admin dashboard built with React and Material-UI. Features real-time data visualization, user management, and analytics with REST API integration.
-                        </p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link">
-                                <i class="fab fa-github"></i>
-                                <span>View Code</span>
-                            </a>
-                            <a href="#" class="portfolio-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Live Demo</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="portfolio-image">
-                        <i class="fas fa-code-branch"></i>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3 class="portfolio-title">CI/CD Pipeline</h3>
-                        <span class="portfolio-category">DevOps Engineering</span>
-                        <p class="portfolio-description">
-                            Automated deployment pipeline using Jenkins and GitLab CI. Features testing, building, and deployment to AWS with Docker containers and monitoring capabilities.
-                        </p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link">
-                                <i class="fab fa-github"></i>
-                                <span>View Code</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="portfolio-image">
-                        <i class="fab fa-docker"></i>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3 class="portfolio-title">Container Orchestration</h3>
-                        <span class="portfolio-category">Docker & Kubernetes</span>
-                        <p class="portfolio-description">
-                            Containerized Java applications with Docker and deployed on Kubernetes. Implemented auto-scaling, load balancing, and service mesh for production deployment.
-                        </p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link">
-                                <i class="fab fa-github"></i>
-                                <span>View Code</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="portfolio-image">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3 class="portfolio-title">ML Learning Project</h3>
-                        <span class="portfolio-category">Python & TensorFlow</span>
-                        <p class="portfolio-description">
-                            Learning ML through hands-on projects. Built predictive models using Python, pandas, and scikit-learn. Exploring neural networks and deep learning concepts.
-                        </p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link">
-                                <i class="fab fa-github"></i>
-                                <span>View Code</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-card">
-                    <div class="portfolio-image">
-                        <i class="fas fa-api"></i>
-                    </div>
-                    <div class="portfolio-content">
-                        <h3 class="portfolio-title">Enterprise REST API</h3>
-                        <span class="portfolio-category">Java Spring Framework</span>
-                        <p class="portfolio-description">
-                            Robust RESTful API with Spring Framework. Features JWT authentication, role-based authorization, comprehensive error handling, and Swagger documentation.
-                        </p>
-                        <div class="portfolio-links">
-                            <a href="#" class="portfolio-link">
-                                <i class="fab fa-github"></i>
-                                <span>View Code</span>
-                            </a>
-                            <a href="#" class="portfolio-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>API Docs</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Showcasing my expertise in Java Full Stack development, DevOps
+            practices, and AI/ML learning journey
+          </p>
         </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">E-Commerce Microservices</h3>
+              <span class="portfolio-category">Java Spring Boot</span>
+              <p class="portfolio-description">
+                Scalable e-commerce platform using Spring Boot microservices
+                architecture. Features user management, product catalog, order
+                processing, and payment integration with MySQL and Redis.
+              </p>
+              <div class="portfolio-links">
+                <a href="#" class="portfolio-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#" class="portfolio-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <i class="fas fa-tachometer-alt"></i>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">Admin Dashboard</h3>
+              <span class="portfolio-category">React Frontend</span>
+              <p class="portfolio-description">
+                Modern responsive admin dashboard built with React and
+                Material-UI. Features real-time data visualization, user
+                management, and analytics with REST API integration.
+              </p>
+              <div class="portfolio-links">
+                <a href="#" class="portfolio-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#" class="portfolio-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">CI/CD Pipeline</h3>
+              <span class="portfolio-category">DevOps Engineering</span>
+              <p class="portfolio-description">
+                Automated deployment pipeline using Jenkins and GitLab CI.
+                Features testing, building, and deployment to AWS with Docker
+                containers and monitoring capabilities.
+              </p>
+              <div class="portfolio-links">
+                <a href="#" class="portfolio-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <i class="fab fa-docker"></i>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">Container Orchestration</h3>
+              <span class="portfolio-category">Docker & Kubernetes</span>
+              <p class="portfolio-description">
+                Containerized Java applications with Docker and deployed on
+                Kubernetes. Implemented auto-scaling, load balancing, and
+                service mesh for production deployment.
+              </p>
+              <div class="portfolio-links">
+                <a href="#" class="portfolio-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">ML Learning Project</h3>
+              <span class="portfolio-category">Python & TensorFlow</span>
+              <p class="portfolio-description">
+                Learning ML through hands-on projects. Built predictive models
+                using Python, pandas, and scikit-learn. Exploring neural
+                networks and deep learning concepts.
+              </p>
+              <div class="portfolio-links">
+                <a href="#" class="portfolio-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <i class="fas fa-api"></i>
+            </div>
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">Enterprise REST API</h3>
+              <span class="portfolio-category">Java Spring Framework</span>
+              <p class="portfolio-description">
+                Robust RESTful API with Spring Framework. Features JWT
+                authentication, role-based authorization, comprehensive error
+                handling, and Swagger documentation.
+              </p>
+              <div class="portfolio-links">
+                <a href="#" class="portfolio-link">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+                <a href="#" class="portfolio-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>API Docs</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section section-alt">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's discuss opportunities and collaborate on amazing projects</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Location</h4>
-                            <p>Mangalore, Karnataka<br>India</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <p>
-                                <a href="mailto:kumarkiru09@gmail.com">kumarkiru09@gmail.com</a><br>
-                                <a href="mailto:kiranpoonja00@gmail.com">kiranpoonja00@gmail.com</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-link"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Connect</h4>
-                            <p>
-                                <a href="https://www.linkedin.com/in/kiran-kumar-921278211/">LinkedIn</a><br>
-                                <a href="https://github.com/kirukumar">GitHub</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                        <div class="form-group">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" id="name" name="name" class="form-input" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" id="email" name="email" class="form-input" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-input">
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea id="message" name="message" class="form-textarea" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                            <span>Send Message</span>
-                        </button>
-                    </form>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Let's discuss opportunities and collaborate on amazing projects
+          </p>
         </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Mumbai, Maharashtra<br />India</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:kumarkiru09@gmail.com"
+                    >kumarkiru09@gmail.com</a
+                  ><br />
+                  <a href="mailto:kiranpoonja00@gmail.com"
+                    >kiranpoonja00@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-link"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Connect</h4>
+                <p>
+                  <a href="https://www.linkedin.com/in/kiran-kumar-921278211/"
+                    >LinkedIn</a
+                  ><br />
+                  <a href="https://github.com/kirukumar">GitHub</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div>
-                    <p>&copy; 2025 Kiran Kumar. All rights reserved.</p>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/kiran-kumar-921278211/" class="footer-social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/kirukumar" class="footer-social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.instagram.com/kiran_kumar_09_/" class="footer-social-link">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="mailto:kumarkiru09@gmail.com" class="footer-social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <p>&copy; 2025 Kiran Kumar. All rights reserved.</p>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/kiran-kumar-921278211/"
+              class="footer-social-link"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/kirukumar" class="footer-social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/kiran_kumar_09_/"
+              class="footer-social-link"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:kumarkiru09@gmail.com" class="footer-social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script>
-        // Header scroll effect
-        window.addEventListener('scroll', function() {
-            const header = document.getElementById('header');
-            if (window.scrollY > 100) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
+      // Header scroll effect
+      window.addEventListener("scroll", function () {
+        const header = document.getElementById("header");
+        if (window.scrollY > 100) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Active navigation link
+      window.addEventListener("scroll", function () {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        let current = "";
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (window.pageYOffset >= sectionTop - 200) {
+            current = section.getAttribute("id");
+          }
         });
 
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
+        navLinks.forEach((link) => {
+          link.classList.remove("active");
+          if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+          }
         });
+      });
 
-        // Active navigation link
-        window.addEventListener('scroll', function() {
-            const sections = document.querySelectorAll('section');
-            const navLinks = document.querySelectorAll('.nav-link');
-            
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (window.pageYOffset >= sectionTop - 200) {
-                    current = section.getAttribute('id');
-                }
-            });
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
 
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === '#' + current) {
-                    link.classList.add('active');
-                }
-            });
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in-up");
+          }
         });
+      }, observerOptions);
 
-        // Animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in-up');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.skill-category, .portfolio-card, .contact-item').forEach(el => {
-            observer.observe(el);
+      document
+        .querySelectorAll(".skill-category, .portfolio-card, .contact-item")
+        .forEach((el) => {
+          observer.observe(el);
         });
     </script>
-</body>
+  </body>
 </html>
